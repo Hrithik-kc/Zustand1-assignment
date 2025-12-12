@@ -14,7 +14,7 @@ export default function TaskSummaryPage() {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-10">
       <h2 className="text-3xl font-bold mb-6"> Task Summary</h2>
 
-      {/* Statistics Card */}
+      
       <div className="bg-white w-96 shadow-md rounded-xl p-6 border border-gray-200 mb-8">
         <p className="text-lg mb-2">
           <strong>Total Tasks:</strong> {tasks.length}
@@ -27,7 +27,7 @@ export default function TaskSummaryPage() {
         </p>
       </div>
 
-      {/* Completed Tasks */}
+      
       <div className="bg-white w-96 shadow-md rounded-xl p-6 border border-gray-200 mb-6">
         <h3 className="text-xl font-semibold mb-3 text-green-700">
           Completed Tasks
@@ -46,7 +46,7 @@ export default function TaskSummaryPage() {
         )}
       </div>
 
-      {/* Pending Tasks */}
+      
       <div className="bg-white w-96 shadow-md rounded-xl p-6 border border-gray-200">
         <h3 className="text-xl font-semibold mb-3 text-yellow-600">
           Pending Tasks
